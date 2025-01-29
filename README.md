@@ -2,6 +2,8 @@
 
 # Fireworks Simulator
 
+https://jack-hust.github.io/Firework/
+
 A webpage that can simulate various fireworks effects
 
 It can display various colorful fireworks effects and make people feel like they are in the gorgeous world of real fireworks
