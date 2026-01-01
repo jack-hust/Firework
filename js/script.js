@@ -281,20 +281,20 @@ const scaleFactorSelector = () => store.state.config.scaleFactor;
 // Help Content
 const helpContent = {
 	shellType: {
-		header: "烟花类型",
-		body: "你要放的烟花的类型，选择“随机（Random）”可以获得非常好的体验！",
+		header: "Fireworks types",
+		body: "Choosing Random for the type of fireworks you want to set off will give you a great experience!",
 	},
 	shellSize: {
-		header: "烟花大小",
-		body: "烟花越大绽放范围就越大，但是烟花越大，设备所需的性能也会增多，大的烟花可能导致你的设备卡顿。",
+		header: "Fireworks size",
+		body: "The larger the fireworks, the wider the display area. However, the larger the fireworks, the more performance your equipment needs to handle, and large fireworks may cause your equipment to lag.",
 	},
 	quality: {
-		header: "画质",
-		body: "如果动画运行不流畅，你可以试试降低画质。画质越高，烟花绽放后的火花数量就越多，但高画质可能导致你的设备卡顿。",
+		header: "Image quality",
+		body: "If the animation is not running smoothly, you can try lowering the graphics quality. The higher the graphics quality, the more sparks will appear after the fireworks explode, but high graphics quality may cause your device to lag.",
 	},
 	skyLighting: {
-		header: "照亮天空",
-		body: "烟花爆炸时，背景会被照亮。如果你的屏幕看起来太亮了，可以把它改成“暗”或者“不”。",
+		header: "Illuminate the sky",
+		body: "When fireworks explode, the background is illuminated. If your screen looks too bright, you can change it to Dim or No.",
 	},
 	scaleFactor: {
 		header: "Zoom",
@@ -352,7 +352,7 @@ const appNodes = {
 	soundBtnSVG: ".sound-btn use",
 	shellType: ".shell-type",
 	shellTypeLabel: ".shell-type-label",
-	shellSize: ".shell-size", //烟花大小
+	shellSize: ".shell-size", //Fireworks size
 	shellSizeLabel: ".shell-size-label",
 	quality: ".quality-ui",
 	qualityLabel: ".quality-ui-label",
@@ -360,9 +360,9 @@ const appNodes = {
 	skyLightingLabel: ".sky-lighting-label",
 	scaleFactor: ".scaleFactor",
 	scaleFactorLabel: ".scaleFactor-label",
-	wordShell: ".word-shell", // 文字烟花
+	wordShell: ".word-shell", // Word Fireworks
 	wordShellLabel: ".word-shell-label",
-	autoLaunch: ".auto-launch", //自动烟花开关
+	autoLaunch: ".auto-launch", //Automatic fireworks switch
 	autoLaunchLabel: ".auto-launch-label",
 	finaleModeFormOption: ".form-option--finale-mode",
 	finaleMode: ".finale-mode",
